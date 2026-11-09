@@ -32,7 +32,7 @@ I've just racked the bar. A small card stands beside the rack at chest height. R
 ## When things show
 - During rest: a white/cyan countdown and a small "DEMO 10 s" label. SET DONE is dimmed.
 - At 3 s left: the card pulses amber with "READY — step under the bar".
-- At 0: the card turns green and shows the pace-note call. This works without sound. A chime is planned (optional).
+- At 0: the card turns green and shows the pace-note call. This works without sound. (Chime: not in this build. Audio failed to decode under Wine.)
 - After set 4: "Workout logged 4/4 sets" and the timer hides.
 - If the card is out of view: the chime is the cue. No arrows.
 - No dark panels: light text on a tinted, semi-transparent card.

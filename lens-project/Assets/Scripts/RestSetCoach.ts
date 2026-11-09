@@ -174,7 +174,7 @@ export class RestSetCoach extends BaseScriptComponent {
     this.timerText.text = "";
     this.timerText.sceneObject.enabled = false; // [SO] timer hides after the last set
     this.setText.text = EXERCISE + " — " + TOTAL_SETS + " × " + REPS + " @ " + LOAD_KG + " kg";
-    this.paceText.text = "Workout logged ✓ " + this.setsDone + "/" + TOTAL_SETS + " sets";
+    this.paceText.text = "Workout logged: " + this.setsDone + "/" + TOTAL_SETS + " sets";
     this.setCardColor(CARD_DONE);
     this.setButtonColor(BUTTON_DIM);
   }

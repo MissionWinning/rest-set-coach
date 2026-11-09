@@ -33,7 +33,7 @@ Not a form coach (no animated demos) and not body tracking or a ghost race. It's
 - **Simulated pinches:** in the demo video, pinches are mouse/touch events injected into Lens Studio's Interactive Preview (clicking counts as a pinch in the preview). No SPECS device was used.
 - **CLAD:** we didn't run CLAD's own Claude Code subagents (no Claude subscription). The build used the same Lens Studio MCP tools, called by our agent, with CLAD's files as reference.
 - **plan-lens:** the questions were answered in writing from a question sheet, not in a live chat with the skill.
-- The 10 s rest and the workout plan are hard-coded demo values. A chime is optional and may not be in this build.
+- The 10 s rest and the workout plan are hard-coded demo values. No chime in this build: a generated chime.wav failed to decode in Lens Studio under Wine (AudioPlayer error 0xc00d36bb), so it was removed. The GO state is fully visual.
 - Feel unproven: readability in gym light and pinching with chalky hands on real glasses.
 
 ## What's next
