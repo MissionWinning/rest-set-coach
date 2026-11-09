@@ -1,0 +1,11 @@
+LEAF run 2026-11-09 16:26 EST
+card_visible_on_start => {"scenarioId":"card_visible_on_start","status":"succeeded","target":"preview"}
+pinch_logs_set => ERROR timed out
+rest_countdown_runs => {"scenarioId":"rest_countdown_runs","status":"failed","target":"preview"}
+rest_end_go_state => {"scenarioId":"rest_end_go_state","status":"succeeded","target":"preview"}
+workout_summary => {"scenarioId":"workout_summary","status":"succeeded","target":"preview"}
+LEAF re-run 16:30 EST
+pinch_logs_set => {"scenarioId":"pinch_logs_set","status":"succeeded","target":"preview"}
+rest_countdown_runs => {"scenarioId":"rest_countdown_runs","status":"failed","target":"preview"}
+LEAF re-run after timing-tolerance fix 16:31 EST
+rest_countdown_runs => {"scenarioId":"rest_countdown_runs","status":"succeeded","target":"preview"}

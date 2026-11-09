@@ -1,0 +1,12 @@
+.mcp.json
+opencode.json
+**/Cache/
+*.lock
+*.pem
+.virtual-scene.json
+PluginsUserPreferences/
+.claude/
+.codex/
+.cursor/
+.env
+*.env

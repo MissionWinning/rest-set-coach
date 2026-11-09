@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/6900a328-70b2-406d-af00-90611d90d1f7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c5459902-209a-4478-b67c-b7841cfba8fb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c5459902-209a-4478-b67c-b7841cfba8fb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f080fee1-ddcf-43eb-a590-827db55936d2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f080fee1-ddcf-43eb-a590-827db55936d2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: db06a126-13f1-4f92-b467-0bfca7cf0490
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonVisual: false
+    cardVisual: false
+    chime: false
+    demoLabel: false
+    dots: false
+    paceText: false
+    setDoneButton: false
+    setText: false
+    timerText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - setDoneButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      timerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      setText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      paceText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      cardVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      dots: !<reference.RenderMeshVisual[]>
+        []
+      buttonVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      chime: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      demoLabel: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject setDoneButton {"hint":"SceneObject holding the SET DONE Interactable (+ Collider, optionally SIK PinchButton)"}'
+    - '// @input Component.Text timerText {"hint":"Big rest countdown text"}'
+    - "// @input Component.Text setText {\"hint\":\"'Set N of 4 — 5 × 100 kg'\"}"
+    - '// @input Component.Text paceText {"hint":"Pace note / status line"}'
+    - '// @input Component.RenderMeshVisual cardVisual {"hint":"Card background (Plane) visual"}'
+    - '// @input Component.RenderMeshVisual[] dots {"hint":"4 dot visuals, left to right"}'
+    - '// @input Component.RenderMeshVisual buttonVisual {"hint":"Optional: SET DONE plate visual, dimmed during rest"}'
+    - '// @input Component.AudioComponent chime {"hint":"Optional: chime AudioComponent on the card"}'
+    - "// @input Component.Text demoLabel {\"hint\":\"Optional: small 'DEMO 10 s' label\"}"
